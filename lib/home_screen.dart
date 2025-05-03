@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart'
-    show FaIcon, FontAwesomeIcons;
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:slider_widget/constant.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -143,6 +142,7 @@ class ReusableCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+         child: cardChid,
       margin: EdgeInsets.all(10),
       decoration: BoxDecoration(
         color: Colour,
